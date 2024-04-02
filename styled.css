@@ -275,50 +275,51 @@ html{
     font-size: 14px;
 }
 /* Estas clases se agregaran dinamicamente mediante javascript */
-.skills .skill .javascript{
+.skills .skill .js-htmlcss{
     width: 0%;
-    animation: 2s javascript forwards;
+    animation: 2s js-htmlcss forwards;
 }
-@keyframes javascript {
+@keyframes js-htmlcss {
     0%{width: 0%;}
-    100%{width: 75%;}
-}
+    100%{width: 85%;}
+} 
+/* 65% es el porcentaje de habilidad en javascript */
 
-.skills .skill .htmlcss{
+.skills .skill .frameworksjs{
     width: 0%;
-    animation: 2s htmlcss forwards;
+    animation: 2s frameworksjs forwards;
 }
-@keyframes htmlcss {
-    0%{width: 0%;}
-    100%{width: 89%;}
-}
-
-.skills .skill .photoshop{
-    width: 0%;
-    animation: 2s photoshop forwards;
-}
-@keyframes photoshop {
-    0%{width: 0%;}
-    100%{width: 95%;}
-}
-
-.skills .skill .wordpress{
-    width: 0%;
-    animation: 2s wordpress forwards;
-}
-@keyframes wordpress {
-    0%{width: 0%;}
-    100%{width: 81%;}
-}
-
-.skills .skill .drupal{
-    width: 0%;
-    animation: 2s drupal forwards;
-}
-@keyframes drupal {
+@keyframes frameworksjs {
     0%{width: 0%;}
     100%{width: 55%;}
+} /* 80% es el porcentaje de habilidad en frameworksjs */
+
+.skills .skill .Python{
+    width: 0%;
+    animation: 2s Python forwards;
 }
+@keyframes Python {
+    0%{width: 0%;}
+    100%{width: 60%;}
+}/* 95% es el porcentaje de habilidad en Node */
+
+.skills .skill .QA{
+    width: 0%;
+    animation: 2s QA forwards;
+}
+@keyframes QA {
+    0%{width: 0%;}
+    100%{width: 40%;}
+}/* 40% es el porcentaje de habilidad en QA */
+
+.skills .skill .SQL{
+    width: 0%;
+    animation: 2s SQL forwards;
+}
+@keyframes SQL {
+    0%{width: 0%;}
+    100%{width: 55%;}
+}/* 55% es el porcentaje de habilidad en SQL */
 
 .skills .skill .comunicacion{
     width: 0%;
@@ -327,7 +328,7 @@ html{
 @keyframes comunicacion {
     0%{width: 0%;}
     100%{width: 80%;}
-}
+}/* 80% es el porcentaje de habilidad en comunicacion */
 
 .skills .skill .trabajo{
     width: 0%;
@@ -336,7 +337,7 @@ html{
 @keyframes trabajo {
     0%{width: 0%;}
     100%{width: 70%;}
-}
+}/* 70% es el porcentaje de habilidad en trabajo */
 
 .skills .skill .creatividad{
     width: 0%;
@@ -344,8 +345,8 @@ html{
 }
 @keyframes creatividad {
     0%{width: 0%;}
-    100%{width: 99%;}
-}
+    100%{width: 65%;}
+}/* 99% es el porcentaje de habilidad en creatividad */
 
 .skills .skill .dedicacion{
     width: 0%;
@@ -353,17 +354,18 @@ html{
 }
 @keyframes dedicacion {
     0%{width: 0%;}
-    100%{width: 65%;}
-}
+    100%{width: 90%;}
+}/* 65% es el porcentaje de habilidad en dedicacion */
 
-.skills .skill .proyect{
+.skills .skill .Leadership{
     width: 0%;
-    animation: 2s proyect forwards;
+    animation: 2s Leadership forwards;
 }
-@keyframes proyect {
+@keyframes Leadership {
     0%{width: 0%;}
-    100%{width: 94%;}
+    100%{width: 70%;}
 }
+/* 70% es el porcentaje de habilidad en Leadership */
 /* SECCION CURRICULUM */
 .curriculum{
     background-color: #1e2326;
