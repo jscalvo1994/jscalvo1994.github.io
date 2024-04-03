@@ -9,7 +9,10 @@ html{
     /* me permite deslizar cuando hago clic en los links del menu */
     scroll-behavior: smooth;
 }
-
+a {
+    text-decoration: none;
+    color: #fff;
+}
 /* MENU */
 .contenedor-header{
     background: #1e2326;
@@ -196,9 +199,7 @@ html{
     position: relative;
     z-index: 10;
 }
-.sobremi button .a{
-    text-decoration: white
-}
+
 
 .sobremi button .overlay{
     position: absolute;
@@ -399,8 +400,61 @@ html{
 .curriculum .fila .izquierda{
     border-right: 2px solid #252A2E;
 }
+.curriculum .fila .izquierda button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+.curriculum .fila .izquierda button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1CB698;
+    z-index: -1;
+    transition: 1s;
+}
+.curriculum .fila .izquierda button:hover .overlay{
+    width: 100%;
+}
+
 .curriculum .fila .derecha{
     border-left: 2px solid #252A2E;
+}
+.curriculum .fila .derecha button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+.curriculum .fila .derecha button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1CB698;
+    z-index: -1;
+    transition: 1s;
+}
+.curriculum .fila .derecha button:hover .overlay{
+    width: 100%;
 }
 .curriculum .fila .item{
     padding: 25px;
